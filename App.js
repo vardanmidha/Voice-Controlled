@@ -36,8 +36,10 @@ const App = () => {
             <Route path="/Playlister/spellCheck/" exact component={SpellCheck} />
             <Route path="/Playlister/voiceSearch/" exact component={VoiceSearch} />
           </Switch>
-        </GlobalStoreContextProvider> 
+        </GlobalStoreContextProvider>
+    
       </AuthContextProvider>
+    
     </BrowserRouter>
   );
 };
